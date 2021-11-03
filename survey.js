@@ -21,7 +21,7 @@ rl.question('what is your name? Nicknames are also acceptable :-) ', (answer1) =
                     outPut.favouriteThing = answer5
                     rl.question('which sport is your absolute favourite?', (answer6) => {
                         outPut.absoluteFavourite = answer6
-        var result = (+answer1) + (+answer2) +(+answer3) +(+answer4)+ (+answer5) +(+answer6)
+       // var result = (+answer1) + (+answer2) +(+answer3) +(+answer4)+ (+answer5) +(+answer6)
         console.log(outPut);
         rl.close();
 
